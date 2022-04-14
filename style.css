@@ -1,0 +1,79 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.item {
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    border: 3px solid green;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #fff;
+    background-color: green;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid green;
+}
+
+table td {
+    padding: 10px;
+    border: 3px solid green;
+}
+
+table td {
+    margin: 10px;
+}
+
+.small-img {
+    width: 75px;
+    height: 80px;
+}
+
+.basket {
+    line-height: 12px;
+    padding: 5px;
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    right: 20px;
+    bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
